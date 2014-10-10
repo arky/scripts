@@ -32,11 +32,11 @@ function echoyellow() {
 }
 
 # Create "gaia-l10n" folder if missing
-if [ ! -d "gaia-l10n" ]
-then
-	mkdir -p gaia-l10n
-fi
-cd gaia-l10n
+#if [ ! -d "gaia-l10n" ]
+#then
+#	mkdir -p gaia-l10n
+#fi
+cd locales
 
 for localecode in $(cat ../locales_gaia.txt)
 do
